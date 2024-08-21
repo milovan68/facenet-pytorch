@@ -37,7 +37,7 @@ setuptools.setup(
     ],
     install_requires=[
         'numpy>=1.24.0,<2.0.0',
-        'Pillow>=10.2.0,<10.3.0',
+        'Pillow>=10.2.0,<=10.4.0',
         'requests>=2.0.0,<3.0.0',
         'torch>=2.0.1,<=2.3.0',
         'torchvision>=0.15.2,<=0.18.0',
