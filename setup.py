@@ -40,7 +40,7 @@ setuptools.setup(
         'Pillow>=10.2.0,<10.3.0',
         'requests>=2.0.0,<3.0.0',
         'torch>=2.0.1,<=2.3.0',
-        'torchvision>=0.17.0,<=0.18.0',
+        'torchvision>=0.15.2,<=0.18.0',
         'tqdm>=4.0.0,<5.0.0',
     ],
 )
