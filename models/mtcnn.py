@@ -441,9 +441,9 @@ class MTCNN(nn.Module):
             selected_points.append(point)
 
         if batch_mode:
-            selected_boxes = np.array(selected_boxes)
-            selected_probs = np.array(selected_probs)
-            selected_points = np.array(selected_points)
+            selected_boxes = np.array(selected_boxes, dtype=object)
+            selected_probs = np.array(selected_probs, dtype=object)
+            selected_points = np.array(selected_points, dtype=object)
         else:
             selected_boxes = selected_boxes[0]
             selected_probs = selected_probs[0][0]
